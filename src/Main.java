@@ -11,6 +11,8 @@ public class Main {
         myLinkedList.prepend(0);
         myLinkedList.printList();
 
+        System.out.println(myLinkedList.removeFirst());
+
         // System.out.println(myLinkedList.removeLast().value);
         // System.out.println(myLinkedList.removeLast().value);
         // System.out.println(myLinkedList.removeLast());
