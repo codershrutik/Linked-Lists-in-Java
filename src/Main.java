@@ -11,8 +11,9 @@ public class Main {
         // myLinkedList.append(23);
         // myLinkedList.append(7);
 
-        System.out.println(myLinkedList.insert(1,2));
+        // System.out.println(myLinkedList.insert(1,2));
         // myLinkedList.prepend(0);
+        System.out.println(myLinkedList.remove(1));
         myLinkedList.printList();
 
         // System.out.println(myLinkedList.removeFirst());
