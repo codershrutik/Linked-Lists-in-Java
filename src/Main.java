@@ -8,11 +8,12 @@ public class Main {
         // myLinkedList.getLength();
 
         myLinkedList.append(2);
-        myLinkedList.printList(0);
+        myLinkedList.prepend(0);
+        myLinkedList.printList();
 
-        System.out.println(myLinkedList.removeLast().value);
-        System.out.println(myLinkedList.removeLast().value);
-        System.out.println(myLinkedList.removeLast());
+        // System.out.println(myLinkedList.removeLast().value);
+        // System.out.println(myLinkedList.removeLast().value);
+        // System.out.println(myLinkedList.removeLast());
         
 
 
