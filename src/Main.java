@@ -9,6 +9,8 @@ public class Main {
 
         myLinkedList.append(2);
 
+        myLinkedList.removeLast();
+
         myLinkedList.printList(0);
 
     }
