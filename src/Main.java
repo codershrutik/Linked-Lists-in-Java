@@ -32,6 +32,7 @@ public class Main {
         // myDLL.getLength();
         myDLL.append(2);
         myDLL.prepend(0);
+        myDLL.removeFirst();
         myDLL.printList();
 
 
