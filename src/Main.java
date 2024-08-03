@@ -26,18 +26,19 @@ public class Main {
         
 
         //DOUBLY LINKED LIST
-        DoublyLinkedList myDLL = new DoublyLinkedList(1);
+        DoublyLinkedList myDLL = new DoublyLinkedList(11);
         // myDLL.getHead();
         // myDLL.getTail();
         // myDLL.getLength();
-        myDLL.append(2);
-        myDLL.prepend(0);
         myDLL.append(3);
+        myDLL.append(23);
+        myDLL.append(7);
         // myDLL.removeFirst();
+        myDLL.set(1, 4);
         myDLL.printList();
 
-        System.out.println(myDLL.get(1).value);
-        System.out.println(myDLL.get(2).value);
+        // System.out.println(myDLL.get(1).value);
+        // System.out.println(myDLL.get(2).value);
 
         // System.out.println(myDLL.removeFirst().value);
         // System.out.println(myDLL.removeFirst().value);
