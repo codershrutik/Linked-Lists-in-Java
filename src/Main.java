@@ -32,9 +32,16 @@ public class Main {
         // myDLL.getLength();
         myDLL.append(2);
         myDLL.prepend(0);
-        myDLL.removeFirst();
+        myDLL.append(3);
+        // myDLL.removeFirst();
         myDLL.printList();
 
+        System.out.println(myDLL.get(1).value);
+        System.out.println(myDLL.get(2).value);
+
+        // System.out.println(myDLL.removeFirst().value);
+        // System.out.println(myDLL.removeFirst().value);
+        // System.out.println(myDLL.removeFirst());
 
         // System.out.println(myDLL.removeLast().value);
         // System.out.println(myDLL.removeLast().value);
