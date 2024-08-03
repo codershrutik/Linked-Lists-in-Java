@@ -29,15 +29,28 @@ public class DoublyLinkedList {
     }
 
     public void getHead(){
-        System.out.println("Head: "+head);
+        System.out.println("Head: "+head.value);
     }
 
     public void getTail(){
-        System.out.println("Tail: "+tail);
+        System.out.println("Tail: "+tail.value);
     }
 
     public void getLength(){
         System.out.println("Length: "+length);
+    }
+
+    public void append(int value){
+        Node newNode = new Node(value);
+        if(length == 0){
+            head = newNode;
+            tail = newNode;
+        } else {
+            tail.next = newNode;
+            newNode.prev = tail;
+            tail = newNode;
+        }
+        length++;
     }
 
 }
